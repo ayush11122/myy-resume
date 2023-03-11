@@ -1,0 +1,173 @@
+
+.overall{
+  color:white;
+  background-color: black;
+}
+
+.heading{
+  font-size:3rem;
+}
+
+.points{
+  font-size:1.5rem;
+  margin:1rem;
+}
+
+.about_points{
+  font-size:1.2rem;
+}
+/* .Header {
+  display: grid;
+  grid-template-areas: "logo nav";
+}
+.Nav {
+  grid-area: nav;
+  display: grid; 
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  justify-items: center;
+} */
+
+
+.section_1{
+  display: flex;
+  width: 100%;
+  margin:0;
+}
+.intro_sec{
+  width: 60%;     
+}
+.name{
+  text-align: left;
+  font-size:4rem;
+  margin:1rem 0rem;
+  font-weight:bold;
+}
+.about{
+  /* text-align: left;
+  font-size: 1.2rem; 
+  margin-top: 4.5rem; */
+  display: flex;
+  flex-direction: row;
+}
+.about_me{
+  font-size: 1.2rem;
+  
+}
+
+.pic_sec{
+  width:40%;
+  text-align: center;
+  margin:1rem;
+}
+.profile_sec{
+  width:14rem;
+  height:14rem;
+  border-radius: 10rem;
+}
+
+.ss_pic{
+  width: 9rem;
+  height: 9rem;
+  margin: 1rem;
+}
+
+.section_6{
+  background-color: rgb(27, 4, 4);
+  color: rgb(255, 255, 255);
+  
+}
+
+.contact{
+  text-align: center;
+  font-weight: bold;
+
+}
+.about_social{
+  padding:0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.social{
+  margin:1rem;
+  width: 2rem;
+  height: 2rem;
+}   
+
+.ftr_sec{
+  width: 25%;
+  text-align: center;
+}
+
+.prt1{
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+.heading{
+  font-size:2rem;
+}   
+
+.section_1{
+  flex-direction: column;
+}
+.pic_sec{
+  width: 100%;
+  margin-top:1.2rem;
+  display: flex;
+  justify-content:center;
+}
+.name{
+  font-size: 3rem;
+  margin:0rem 0rem 3rem 0rem;
+}
+.profile_sec{
+  width:10rem;
+  height:10rem;
+}
+.ss_pic{
+  width: 6rem;
+  height: 6rem;
+}
+.points{
+  font-size:1.2rem;
+  margin:0.8rem;
+}
+
+.about_points{
+  font-size:1rem;
+}
+.about_me{
+  font-size:1rem;
+}
+}
+
+@media (max-width: 440px){
+  .heading{
+       font-size:1rem;
+  }
+  .points{
+      font-size:1rem;
+      margin:0.6rem;
+  }
+  
+  .about_points{
+      font-size:0.8rem;
+  }   
+  .about_me{
+      font-size:0.8rem;
+  }
+  .name{
+   font-size: 2rem;
+   margin:0rem 0rem 2rem 0rem;
+  }
+  .profile_sec{
+      width:7rem;
+      height:7rem;
+  }
+  .ss_pic{
+      width: 3rem;
+      height: 3rem;
+  }
+}
